@@ -1,0 +1,21 @@
+# Maven build output - keep WAR, ignore everything else in target
+target/*
+!target/learnakademy.war
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Tomcat
+*.war.bak
